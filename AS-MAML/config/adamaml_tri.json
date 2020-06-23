@@ -1,0 +1,38 @@
+{
+  "model_type": "sage",
+  "nhid": 128,
+  "pooling_ratio":0.5,
+  "dropout_ratio":0.3,
+
+  "double":true,
+  "device":"cuda:0",
+  "dataset":"TRIANGLES",
+
+  "outer_lr": 0.001,
+  "inner_lr": 0.01,
+  "stop_lr":0.0001,
+  "weight_decay": 1e-5,
+
+  "max_step":15,
+  "min_step":5,
+  "step_test":15,
+  "flexible_step": true,
+  "step_penalty":0.001,
+  "use_score": true,
+  "use_grad":false,
+  "use_loss":true,
+
+  "train_shot": 10,
+  "val_shot": 10,
+  "train_query": 15,
+  "val_query": 15,
+  "train_way": 3,
+  "test_way": 3,
+  "val_episode": 200,
+  "train_episode": 200,
+  "batch_per_episodes":5,
+  "epochs":500,
+  "patience":35,
+  "grad_clip":5,
+  "save": true
+}
