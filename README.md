@@ -10,7 +10,7 @@ A meta-learning based framework for few-shot learning on graphs.For more details
 - torch-sparse              0.4.3  
 
 ## Dataset
-In experiments, we use [TRIANGLES](https://drive.google.com/drive/folders/1na8l6DV7qtYIoteFGIp9p7VfQNjmSQxx?usp=sharingwith) with the partition rules of Jatin Chauhan's [paper](https://openreview.net/forum?id=Bkeeca4Kvr). For origin TRIANGLES dataset, you can download it from [here](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets)
+In experiments, we use [TRIANGLES](https://drive.google.com/drive/folders/1na8l6DV7qtYIoteFGIp9p7VfQNjmSQxx?usp=sharingwith) with the partition rules of Jatin Chauhan's [paper](https://openreview.net/forum?id=Bkeeca4Kvr). Extract the downloaded file and put the files in ./data/TRIANGLES. Note that for origin TRIANGLES dataset, you can download it from [here](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets)
 ## Training and Test 
 To train the AS-MAML framework with GraghSAGE and SAGPool on TRIANGLES dataset, please run:
 
