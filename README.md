@@ -16,6 +16,6 @@ To train the AS-MAML framework with GraghSAGE and SAGPool on TRIANGLES dataset, 
 
 `python main.py` 
 
-To test the trained model, please run the following:
+To test the trained model, please run the following code with specified model path:
 
 `python test.py`
