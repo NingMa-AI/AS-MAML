@@ -1,5 +1,5 @@
 # AS-MAML
-A meta-learning based framework for few-shot learning on graphs.For more details, please refer to our paper "Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification"
+A meta-learning based framework for few-shot learning on graphs. For more details, please refer to our paper "Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification".
 
 ## Environments
 - python                    3.6
@@ -18,4 +18,4 @@ To train the AS-MAML framework with GraghSAGE and SAGPool on TRIANGLES dataset, 
 
 To test the trained model, please run the following code with specified model path:
 
-`python test.py`
+`python test.py --model_dir * ` 
