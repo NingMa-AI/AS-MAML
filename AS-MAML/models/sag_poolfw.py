@@ -3,7 +3,6 @@ from models.graph_convfw import GraphConv
 from torch_geometric.nn.pool.topk_pool import topk, filter_adj
 from torch_geometric.utils import softmax
 
-
 class SAGPooling(torch.nn.Module):
     r"""The self-attention pooling operator from the `"Self-Attention Graph
     Pooling" <https://arxiv.org/abs/1904.08082>`_ and `"Understanding
