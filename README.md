@@ -1,5 +1,5 @@
 # AS-MAML
-For more details, please refer to our paper "Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification"
+A meta-learning based framework for few-shot learning on graphs.For more details, please refer to our paper "Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification"
 
 ## Environments
 - python                    3.6
@@ -10,9 +10,12 @@ For more details, please refer to our paper "Adaptive-Step Graph Meta-Learner fo
 - torch-sparse              0.4.3  
 
 ## Dataset
-For origin TRIANGLES dataset, you can download from here. In experiments, we use TRIANGLES with the partition rules of Jatin Chauhan.
+In experiments, we use [TRIANGLES](https://drive.google.com/drive/folders/1na8l6DV7qtYIoteFGIp9p7VfQNjmSQxx?usp=sharingwith) with the partition rules of Jatin Chauhan's [paper](https://openreview.net/forum?id=Bkeeca4Kvr). For origin TRIANGLES dataset, you can download it from [here](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets)
 ## Training and Test 
-To train the AS-MAML framework with GraghSAGE and SAGPool, please run:
-python main.py 
+To train the AS-MAML framework with GraghSAGE and SAGPool on TRIANGLES dataset, please run:
+
+`python main.py` 
+
 To test the trained model, please run the following:
-python test.py 
+
+`python test.py`
