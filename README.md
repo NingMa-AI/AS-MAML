@@ -1,5 +1,5 @@
 # AS-MAML
-A meta-learning based framework for few-shot learning on graphs. For more details, please refer to our paper ["Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification"](https://dl.acm.org/doi/10.1145/3340531.3411951).
+A meta-learning based framework for few-shot learning on graph classification. For more details, please refer to our paper ["Adaptive-Step Graph Meta-Learner for Few-Shot Graph Classification"](https://dl.acm.org/doi/10.1145/3340531.3411951) that was published on CIKM2020.
 
 ## Environments
 - python                    3.6
