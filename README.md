@@ -10,7 +10,7 @@ A meta-learning based framework for few-shot learning on graphs. For more detail
 - torch-sparse              0.4.3  
 
 ## Dataset
-In experiments, we use [TRIANGLES](https://drive.google.com/drive/folders/1na8l6DV7qtYIoteFGIp9p7VfQNjmSQxx?usp=sharingwith) with the partition rules of Jatin Chauhan's [paper](https://openreview.net/forum?id=Bkeeca4Kvr). Extract the downloaded file and put the files in ./data/TRIANGLES. Note that for origin TRIANGLES dataset, you can download it from [here](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets). For [Graph-R52](https://drive.google.com/drive/folders/1pjh1GHn733xb-msqmVP2voZ_IWKKiEYg?usp=sharing) and [COIL-DEL](https://drive.google.com/drive/folders/1Cq2quq4XNLL91WlwXgXVx3kH_h3_RL9_?usp=sharing) can also be downloaded now.
+In experiments, we use [TRIANGLES (click to download)](https://drive.google.com/drive/folders/1na8l6DV7qtYIoteFGIp9p7VfQNjmSQxx?usp=sharingwith) with the partition rules of Jatin Chauhan's [paper](https://openreview.net/forum?id=Bkeeca4Kvr). Extract the downloaded file and put the files in ./data/TRIANGLES. Note that for origin TRIANGLES dataset, you can download it from [here](https://ls11-www.cs.tu-dortmund.de/staff/morris/graphkerneldatasets). For [Graph-R52](https://drive.google.com/drive/folders/1pjh1GHn733xb-msqmVP2voZ_IWKKiEYg?usp=sharing) and [COIL-DEL](https://drive.google.com/drive/folders/1Cq2quq4XNLL91WlwXgXVx3kH_h3_RL9_?usp=sharing) can also be downloaded now.
 ## Training and Test 
 To train the AS-MAML framework with GraghSAGE and SAGPool on TRIANGLES dataset, please run:
 
